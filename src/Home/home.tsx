@@ -1,7 +1,12 @@
 import React from "react";
+import Auth from "../Auth/auth";
 
 const Home = () => {
-  return <div>add todo here</div>;
+  return (
+    <div>
+      <Auth />
+    </div>
+  );
 };
 
 export default Home;
